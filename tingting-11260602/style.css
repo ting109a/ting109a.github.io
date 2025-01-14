@@ -10,11 +10,12 @@ img {
 .wrap {
     display: flex;
 width: 1280px;
-height: 1742px;
+
 flex-direction: column;
 align-items: flex-start;
 background-color:#B9ADBF12;
-margin-bottom: 0;
+
+margin: 0 auto;
 }
 .logo{
     display: inline-flex;
@@ -46,21 +47,25 @@ main {
     width: 1280px;
 height: 633px;
 flex-shrink: 0;
+
     background-image: url(image/💖Time\ 7\ 💖\ 1.png);
 
 }
 
 section {
-    margin-top: 155px;
+margin: 0 auto;
+    background: #f5f4f7;
+    padding-top: 40px;
+    padding-bottom: 128px;
     display: flex;
-    gap: 10px;
+    gap: 50px;
     width: 1280px;
-    height: 969px;
+    
 flex-shrink: 0;
 align-self: stretch;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: center;
     background-image: url(image/未.png);
    
 
